@@ -1,0 +1,140 @@
+{
+  "templates": [
+    {
+      "metadata": [
+        {
+          "id": "General",
+          "header": "GENERAL_HDR",
+          "parent": "",
+          "actions": []
+        },
+        {
+          "id": "Subsystems",
+          "header": "SUBSYSTEM_HDR",
+          "parent": "General",
+          "actions": [
+            {
+              "id": "add",
+              "command":"addSubsystem"
+            },
+            {
+              "id": "delete",
+              "command":"deleteSubsystem"
+            }
+          ]
+        },
+        {
+          "id": "Settings",
+          "header": "SETTINGS_HDR",
+          "parent": "General",
+          "actions": [
+            {
+              "id": "add",
+              "command":"addSetting"
+            },
+            {
+              "id": "delete",
+              "command":"deleteSetting"
+            }
+          ]
+        },
+        {
+          "id": "Business",
+          "header": "BUSINESS_HDR",
+          "parent": "",
+          "actions": []
+        },
+        {
+          "id": "Catalogs",
+          "header": "CATALOGS_HDR",
+          "parent": "Business",
+          "actions": [
+            {
+              "id": "add",
+              "command":"addCatalog"
+            },
+            {
+              "id": "delete",
+              "command":"deleteCatalog"
+            }
+          ]
+        },
+        {
+          "id": "Documents",
+          "header": "DOCUMENTS_HDR",
+          "parent": "Business",
+          "actions": [
+            {
+              "id": "add",
+              "command":"addDocument"
+            },
+            {
+              "id": "delete",
+              "command":"deleteDocument"
+            }
+          ]
+        },
+        {
+          "id": "Handlers",
+          "header": "HANDLERS_HDR",
+          "parent": "Business",
+          "actions": [
+            {
+              "id": "add",
+              "command":"addHandler"
+            },
+            {
+              "id": "delete",
+              "command":"deleteHandler"
+            }
+          ]
+        },
+        {
+          "id": "ChartsOfAccounts",
+          "header": "ACC_CHARTS_HDR",
+          "parent": "Business",
+          "actions": [
+            {
+              "id": "add",
+              "command":"addChartOfAccounts"
+            },
+            {
+              "id": "delete",
+              "command":"deleteChartOfAccounts"
+            }
+          ]
+        },
+        {
+          "id": "AccountingRegisters",
+          "header": "ACC_REGS_HDR",
+          "parent": "Business",
+          "actions": [
+            {
+              "id": "add",
+              "command":"addAccountingRegister"
+            },
+            {
+              "id": "delete",
+              "command":"deleteAccountingRegister"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "classImages": [
+    {
+      "id": "Metadata",
+      "image": "root.png"
+    },
+    {
+      "id": "Subsystems",
+      "image": "subsystem.png"
+    },
+    {
+      "id": "Documents",
+      "image": "docs.png"
+    }
+  ]
+}
+
